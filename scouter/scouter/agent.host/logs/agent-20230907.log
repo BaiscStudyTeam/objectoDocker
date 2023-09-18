@@ -1,0 +1,20 @@
+20230907 10:00:54 Version 2.20.0 2023-05-29 05:14 GMT
+20230907 10:00:54 [A113] Counter Collector Started (#6)
+20230907 10:00:54 [A10] host agent boot seed=x4n5nhcqn7
+20230907 10:00:54 [A01] Scouter Host Agent Version 2.20.0 2023-05-29 05:14 GMT
+20230907 10:00:55 [A119] Agent UDP local.port=0
+20230907 10:00:56 [INFO] Num of Cpu Cores : 1
+20230907 14:08:38 Version 2.20.0 2023-05-29 05:14 GMT
+20230907 14:08:39 [A113] Counter Collector Started (#6)
+20230907 14:08:39 [A10] host agent boot seed=xmdhnviep2
+20230907 14:08:39 [A01] Scouter Host Agent Version 2.20.0 2023-05-29 05:14 GMT
+20230907 14:08:39 [A119] Agent UDP local.port=0
+20230907 14:08:40 [INFO] Num of Cpu Cores : 1
+20230907 14:11:57 Version 2.20.0 2023-05-29 05:14 GMT
+20230907 14:11:57 [A113] Counter Collector Started (#6)
+20230907 14:11:57 [A10] host agent boot seed=xp55nvog83
+20230907 14:11:57 [A01] Scouter Host Agent Version 2.20.0 2023-05-29 05:14 GMT
+20230907 14:11:58 [A119] Agent UDP local.port=0
+20230907 14:11:58 [INFO] Num of Cpu Cores : 1
+20230907 14:14:32 [A130] TCP unknown cmd=OBJECT_RESET_CACHE
+20230908 00:00:01 [A130] TCP unknown cmd=OBJECT_RESET_CACHE

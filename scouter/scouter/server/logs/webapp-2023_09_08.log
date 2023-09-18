@@ -1,0 +1,9 @@
+ 11:32:32.300 [scouter.server.http.HttpServer]  INFO  org.eclipse.jetty.util.log[192] - Logging initialized @3581ms to org.eclipse.jetty.util.log.Slf4jLog
+ 11:32:32.565 [scouter.server.http.HttpServer]  INFO  org.eclipse.jetty.server.Server[372] - jetty-9.4.6.v20170531
+ 11:32:32.601 [scouter.server.http.HttpServer]  INFO  o.e.j.server.AbstractNCSARequestLog[230] - Opened /home/ec2-user/scouter/server/logs/http-request-2023_09_08.log
+ 11:32:32.634 [scouter.server.http.HttpServer]  INFO  org.eclipse.jetty.server.session[364] - DefaultSessionIdManager workerName=node0
+ 11:32:32.635 [scouter.server.http.HttpServer]  INFO  org.eclipse.jetty.server.session[369] - No SessionScavenger set, using defaults
+ 11:32:32.645 [scouter.server.http.HttpServer]  INFO  org.eclipse.jetty.server.session[149] - Scavenging every 600000ms
+ 11:32:32.656 [scouter.server.http.HttpServer]  INFO  o.e.j.server.handler.ContextHandler[788] - Started o.e.j.s.ServletContextHandler@31bf8a2{/,null,AVAILABLE}
+ 11:32:32.714 [scouter.server.http.HttpServer]  INFO  o.e.jetty.server.AbstractConnector[280] - Started ServerConnector@9020ea4{HTTP/1.1,[http/1.1]}{0.0.0.0:6180}
+ 11:32:32.717 [scouter.server.http.HttpServer]  INFO  org.eclipse.jetty.server.Server[444] - Started @4021ms

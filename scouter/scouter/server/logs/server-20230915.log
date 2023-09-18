@@ -1,0 +1,225 @@
+20230915 05:21:43 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230915 05:21:43 [PID]290957
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230915 05:21:43 Load Account Group File
+20230915 05:21:43 Load Account File
+20230915 05:21:43 udp listen 0.0.0.0:6100
+20230915 05:21:43 	udp_host=0.0.0.0
+20230915 05:21:43 Load Account Group File
+20230915 05:21:43 	udp_port=6100
+20230915 05:21:43 	udp_buffer=65535
+20230915 05:21:43 	udp_so_rcvbuf=4194304
+20230915 05:21:43 Load Account File
+20230915 05:21:43 	tcp_port=6100
+20230915 05:21:43 	cp_agent_so_timeout=60000
+20230915 05:21:43 	cp_client_so_timeout=8000
+20230915 05:21:43 [S167] tcp port=6100
+java.net.BindException: Address already in use (Bind failed)
+	java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	scouter.server.netio.service.net.TcpServer$$anonfun$1.apply$mcV$sp(TcpServer.scala:40)
+	scouter.server.util.ThreadScala$$anon$1.run(ThreadScala.scala:12)
+20230915 05:21:43 [S206] * Auto deletion... 20230907 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230907
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230908 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230908
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230909 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230909
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230910 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230910
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230911 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230911
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230912 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230912
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230913 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230913
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230914 mode : PROFILE
+20230915 05:21:43 [S206-1] [purge profile by][capacity]20230914
+20230915 05:21:43 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230907 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230907
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230908 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230908
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230909 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230909
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230910 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230910
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230911 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230911
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230912 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230912
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230913 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230913
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230914 mode : XLOG
+20230915 05:21:43 [S206-2] [purge xlog by][capacity]20230914
+20230915 05:21:43 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230907 mode : ALL
+20230915 05:21:43 [S206-3] [purge counters by][capacity]20230907
+20230915 05:21:43 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:43 [S206] * Auto deletion... 20230908 mode : ALL
+20230915 05:21:43 [S206-3] [purge counters by][capacity]20230908
+20230915 05:21:43 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:44 [S206] * Auto deletion... 20230909 mode : ALL
+20230915 05:21:44 [S206-3] [purge counters by][capacity]20230909
+20230915 05:21:44 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:44 [S206] * Auto deletion... 20230910 mode : ALL
+20230915 05:21:44 [S206-3] [purge counters by][capacity]20230910
+20230915 05:21:44 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:44 [S206] * Auto deletion... 20230911 mode : ALL
+20230915 05:21:44 [S206-3] [purge counters by][capacity]20230911
+20230915 05:21:44 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:44 [S206] * Auto deletion... 20230912 mode : ALL
+20230915 05:21:44 [S206-3] [purge counters by][capacity]20230912
+20230915 05:21:44 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:44 [S206] * Auto deletion... 20230913 mode : ALL
+20230915 05:21:44 [S206-3] [purge counters by][capacity]20230913
+20230915 05:21:44 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:44 [S206] * Auto deletion... 20230914 mode : ALL
+20230915 05:21:44 [S206-3] [purge counters by][capacity]20230914
+20230915 05:21:44 [S206-3] * option : conf.mgr_purge_disk_usage_pct : 80
+20230915 05:21:48 [A1601] error on toClass with javassist. try to fallback for java8 below. err:Class not in same package as lookup class: scouter.server.plugin.impl.Neighbor has no permission to define the class
+20230915 05:21:48 [S215] Alert rule detected : ErrorRate.alert
+20230915 05:21:48 PLUG-IN : scouter.server.plugin.IAlert loaded #x1e6ulfg
+20230915 05:21:48 PLUG-IN : scouter.server.plugin.ICounter loaded #x1u3p6q2
+20230915 05:21:48 PLUG-IN : scouter.server.plugin.IObject loaded #x9pnf8f
+20230915 05:21:48 PLUG-IN : scouter.server.plugin.IXLog loaded #x1o3sj1k
+20230915 05:21:49 PLUG-IN : scouter.server.plugin.IXLog loaded #xni08m8
+20230915 05:21:49 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x150l3ad
+20230915 05:21:49 PLUG-IN : scouter.server.plugin.ISummary loaded #xsf5a55
+20230915 05:21:51 [S178] Server Shutdown
+20230915 05:21:51 [S179] Shutdown scouter.server.db.DBCtr$$anon$1@261b7538 ...
+20230915 05:21:51 [S179] Shutdown scouter.server.core.CoreRun$$anon$1@43fd9650 ...
+20230915 05:21:51 [S179] Shutdown scouter.server.term.TermMain$1@1777374b ...
+20230915 05:35:47 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230915 05:35:47 [PID]291462
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230915 05:35:47 Load Account Group File
+20230915 05:35:48 Load Account File
+20230915 05:35:48 Load Account Group File
+20230915 05:35:48 udp listen 0.0.0.0:6100
+20230915 05:35:48 	udp_host=0.0.0.0
+20230915 05:35:48 	udp_port=6100
+20230915 05:35:48 	udp_buffer=65535
+20230915 05:35:48 	udp_so_rcvbuf=4194304
+20230915 05:35:48 Load Account File
+20230915 05:35:48 	tcp_port=6100
+20230915 05:35:48 	cp_agent_so_timeout=60000
+20230915 05:35:48 	cp_client_so_timeout=8000
+20230915 05:35:48 [S167] tcp port=6100
+java.net.BindException: Address already in use (Bind failed)
+	java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	scouter.server.netio.service.net.TcpServer$$anonfun$1.apply$mcV$sp(TcpServer.scala:40)
+	scouter.server.util.ThreadScala$$anon$1.run(ThreadScala.scala:12)
+20230915 05:35:52 [S178] Server Shutdown
+20230915 05:35:52 [S179] Shutdown scouter.server.db.DBCtr$$anon$1@6f51d9f6 ...
+20230915 05:35:52 [S179] Shutdown scouter.server.core.CoreRun$$anon$1@b3e0c1b ...
+20230915 05:48:11 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230915 05:48:11 [PID]291944
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230915 05:48:11 Load Account Group File
+20230915 05:48:12 Load Account File
+20230915 05:48:12 udp listen 0.0.0.0:6100
+20230915 05:48:12 Load Account Group File
+20230915 05:48:12 	udp_host=0.0.0.0
+20230915 05:48:12 	udp_port=6100
+20230915 05:48:12 	udp_buffer=65535
+20230915 05:48:12 	udp_so_rcvbuf=4194304
+20230915 05:48:12 Load Account File
+20230915 05:48:12 	tcp_port=6100
+20230915 05:48:12 	cp_agent_so_timeout=60000
+20230915 05:48:12 	cp_client_so_timeout=8000
+20230915 05:48:12 [S167] tcp port=6100
+java.net.BindException: Address already in use (Bind failed)
+	java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	scouter.server.netio.service.net.TcpServer$$anonfun$1.apply$mcV$sp(TcpServer.scala:40)
+	scouter.server.util.ThreadScala$$anon$1.run(ThreadScala.scala:12)
+20230915 05:48:17 [A1601] error on toClass with javassist. try to fallback for java8 below. err:Class not in same package as lookup class: scouter.server.plugin.impl.Neighbor has no permission to define the class
+20230915 05:48:17 [S215] Alert rule detected : ErrorRate.alert
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.IAlert loaded #xi2rrri
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.ICounter loaded #x1jhsvrs
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.IObject loaded #x1jognru
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.IXLog loaded #xqnotd6
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.IXLog loaded #x1loc7tq
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x1rlge21
+20230915 05:48:17 PLUG-IN : scouter.server.plugin.ISummary loaded #x1nc4u4g
+20230915 05:58:11 [S178] Server Shutdown
+20230915 05:58:11 [S179] Shutdown scouter.server.db.DBCtr$$anon$1@17616c71 ...
+20230915 05:58:11 [S179] Shutdown scouter.server.core.CoreRun$$anon$1@ed115a8 ...
+20230915 05:58:18 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230915 05:58:18 [PID]292146
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230915 05:58:19 Load Account Group File
+20230915 05:58:19 Load Account File
+20230915 05:58:19 udp listen 0.0.0.0:6100
+20230915 05:58:19 	udp_host=0.0.0.0
+20230915 05:58:19 	udp_port=6100
+20230915 05:58:19 	udp_buffer=65535
+20230915 05:58:19 	udp_so_rcvbuf=4194304
+20230915 05:58:19 Load Account Group File
+20230915 05:58:19 Load Account File
+20230915 05:58:19 	tcp_port=6100
+20230915 05:58:19 	cp_agent_so_timeout=60000
+20230915 05:58:19 	cp_client_so_timeout=8000
+20230915 05:58:19 [S167] tcp port=6100
+java.net.BindException: Address already in use (Bind failed)
+	java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	scouter.server.netio.service.net.TcpServer$$anonfun$1.apply$mcV$sp(TcpServer.scala:40)
+	scouter.server.util.ThreadScala$$anon$1.run(ThreadScala.scala:12)
+20230915 05:58:24 [A1601] error on toClass with javassist. try to fallback for java8 below. err:Class not in same package as lookup class: scouter.server.plugin.impl.Neighbor has no permission to define the class
+20230915 05:58:24 [S215] Alert rule detected : ErrorRate.alert
+20230915 05:58:24 [S178] Server Shutdown
+20230915 05:58:24 [S179] Shutdown scouter.server.db.DBCtr$$anon$1@33e1a0dd ...
+20230915 05:58:24 [S179] Shutdown scouter.server.core.CoreRun$$anon$1@e15813d ...

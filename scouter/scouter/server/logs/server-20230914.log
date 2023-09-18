@@ -1,0 +1,42 @@
+20230914 07:50:36 [S206] * Auto deletion... 20230907 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230907
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 07:50:36 [S206] * Auto deletion... 20230908 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230908
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 07:50:36 [S206] * Auto deletion... 20230909 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230909
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 07:50:36 [S206] * Auto deletion... 20230910 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230910
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 07:50:36 [S206] * Auto deletion... 20230911 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230911
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 07:50:36 [S206] * Auto deletion... 20230912 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230912
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 07:50:36 [S206] * Auto deletion... 20230913 mode : PROFILE
+20230914 07:50:36 [S206-1] [purge profile by][capacity]20230913
+20230914 07:50:36 [S206-1] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230907 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230907
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230908 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230908
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230909 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230909
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230910 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230910
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230911 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230911
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230912 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230912
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80
+20230914 09:40:37 [S206] * Auto deletion... 20230913 mode : XLOG
+20230914 09:40:37 [S206-2] [purge xlog by][capacity]20230913
+20230914 09:40:37 [S206-2] * option : conf.mgr_purge_disk_usage_pct : 80

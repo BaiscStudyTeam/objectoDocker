@@ -1,0 +1,75 @@
+20230907 13:50:56 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230907 13:50:56 [PID]5610
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230907 13:50:56 Load Account Group File
+20230907 13:50:57 Load Account File
+20230907 13:50:57 Load Account Group File
+20230907 13:50:57 udp listen 0.0.0.0:6100
+20230907 13:50:57 	udp_host=0.0.0.0
+20230907 13:50:57 	udp_port=6100
+20230907 13:50:57 	udp_buffer=65535
+20230907 13:50:57 	udp_so_rcvbuf=4194304
+20230907 13:50:57 Load Account File
+20230907 13:50:57 	tcp_port=6100
+20230907 13:50:57 	cp_agent_so_timeout=60000
+20230907 13:50:57 	cp_client_so_timeout=8000
+20230907 13:51:02 [A1601] error on toClass with javassist. try to fallback for java8 below. err:Class not in same package as lookup class: scouter.server.plugin.impl.Neighbor has no permission to define the class
+20230907 13:51:02 [S215] Alert rule detected : ErrorRate.alert
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.IAlert loaded #x1kqc6et
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.ICounter loaded #x1lrerl5
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.IObject loaded #x1m1t21h
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.IXLog loaded #x3ntad2
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.IXLog loaded #x1ooqv3s
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #xsbblc8
+20230907 13:51:02 PLUG-IN : scouter.server.plugin.ISummary loaded #x1p8eger
+20230907 13:51:05 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230907 13:51:05 [PID]5664
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230907 14:08:39 [S104] New OBJECT  objType=linux objHash=x1r1fbfc objName=/ip-172-31-6-24.ap-northeast-2.compute.internal addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT alive 2023-09-07 14:08:39.906 {detected=linux,podName=,kubeSeq=-1,useKubeSeq=false,hostName=ip-172-31-6-24.ap-northeast-2.compute.internal}
+20230907 14:14:01 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230907 14:14:01 [PID]6383
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230907 14:14:02 Load Account Group File
+20230907 14:14:02 Load Account File
+20230907 14:14:02 Load Account Group File
+20230907 14:14:02 udp listen 0.0.0.0:6100
+20230907 14:14:02 	udp_host=0.0.0.0
+20230907 14:14:02 	udp_port=6100
+20230907 14:14:02 	udp_buffer=65535
+20230907 14:14:02 	udp_so_rcvbuf=4194304
+20230907 14:14:02 Load Account File
+20230907 14:14:02 	tcp_port=6100
+20230907 14:14:02 	cp_agent_so_timeout=60000
+20230907 14:14:02 	cp_client_so_timeout=8000
+20230907 14:14:04 [S104] New OBJECT  objType=linux objHash=x1r1fbfc objName=/ip-172-31-6-24.ap-northeast-2.compute.internal addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT alive 2023-09-07 14:14:03.989 {detected=linux,podName=,kubeSeq=-1,useKubeSeq=false,hostName=ip-172-31-6-24.ap-northeast-2.compute.internal}
+20230907 14:14:07 [A1601] error on toClass with javassist. try to fallback for java8 below. err:Class not in same package as lookup class: scouter.server.plugin.impl.Neighbor has no permission to define the class
+20230907 14:14:07 [S215] Alert rule detected : ErrorRate.alert
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.IAlert loaded #xcekj1o
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.ICounter loaded #xgak9hs
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.IObject loaded #x16eo8m9
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.IXLog loaded #xt0n8dg
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.IXLog loaded #x12lfai5
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #xhogqh1
+20230907 14:14:07 PLUG-IN : scouter.server.plugin.ISummary loaded #x1sci511
+20230908 00:00:01 [S105] Update OBJECT  objType=linux objHash=x1r1fbfc objName=/ip-172-31-6-24.ap-northeast-2.compute.internal addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT alive 2023-09-08 00:00:01.683 {detected=linux,podName=,kubeSeq=-1,useKubeSeq=false,hostName=ip-172-31-6-24.ap-northeast-2.compute.internal}

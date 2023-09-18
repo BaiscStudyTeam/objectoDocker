@@ -1,0 +1,64 @@
+20230915 05:43:24 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230915 05:43:24 [PID]291653
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230915 05:43:24 Load Account Group File
+20230915 05:43:25 Load Account File
+20230915 05:43:25 Load Account Group File
+20230915 05:43:25 udp listen 0.0.0.0:6100
+20230915 05:43:25 	udp_host=0.0.0.0
+20230915 05:43:25 	udp_port=6100
+20230915 05:43:25 	udp_buffer=65535
+20230915 05:43:25 	udp_so_rcvbuf=4194304
+20230915 05:43:25 Load Account File
+20230915 05:43:25 	tcp_port=6100
+20230915 05:43:25 	cp_agent_so_timeout=60000
+20230915 05:43:25 	cp_client_so_timeout=8000
+20230915 05:43:25 [S167] tcp port=6100
+java.net.BindException: Address already in use (Bind failed)
+	java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	scouter.server.netio.service.net.TcpServer$$anonfun$1.apply$mcV$sp(TcpServer.scala:40)
+	scouter.server.util.ThreadScala$$anon$1.run(ThreadScala.scala:12)
+20230915 05:43:35 [S178] Server Shutdown
+20230915 05:43:35 [S179] Shutdown scouter.server.db.DBCtr$$anon$1@5f54fb08 ...
+20230915 05:43:35 [S179] Shutdown scouter.server.core.CoreRun$$anon$1@3ff01919 ...
+20230915 05:43:35 [S179] Shutdown scouter.server.term.TermMain$1@6e4187bd ...
+20230915 05:58:31 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230915 05:58:31 [PID]292187
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230915 05:58:31 Load Account Group File
+20230915 05:58:31 Load Account File
+20230915 05:58:31 Load Account Group File
+20230915 05:58:31 udp listen 0.0.0.0:6100
+20230915 05:58:31 	udp_host=0.0.0.0
+20230915 05:58:31 	udp_port=6100
+20230915 05:58:31 	udp_buffer=65535
+20230915 05:58:31 	udp_so_rcvbuf=4194304
+20230915 05:58:31 Load Account File
+20230915 05:58:31 	tcp_port=6100
+20230915 05:58:31 	cp_agent_so_timeout=60000
+20230915 05:58:31 	cp_client_so_timeout=8000
+20230915 05:58:31 [S167] tcp port=6100
+java.net.BindException: Address already in use (Bind failed)
+	java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+	java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+	scouter.server.netio.service.net.TcpServer$$anonfun$1.apply$mcV$sp(TcpServer.scala:40)
+	scouter.server.util.ThreadScala$$anon$1.run(ThreadScala.scala:12)

@@ -1,0 +1,41 @@
+20230908 11:15:32 [S104] New OBJECT  objType=java objHash=z14b4l71 objName=/ip-172-31-6-24.ap-northeast-2.compute.internal/TEST-WAS-01 addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT_ENV_java8plus alive 2023-09-08 11:15:32.078 {detected=java,ADC=false}
+20230908 11:15:36 [S105] Update OBJECT  objType=tomcat objHash=z14b4l71 objName=/ip-172-31-6-24.ap-northeast-2.compute.internal/TEST-WAS-01 addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT_ENV_java8plus alive 2023-09-08 11:15:36.078 {detected=tomcat,ADC=false}
+20230908 11:17:09 [S145] GeoIP db file is not readable : /home/ec2-user/scouter/server/conf/GeoLiteCity.dat
+20230908 11:25:23 [S105] Update OBJECT  objType=java objHash=z14b4l71 objName=/ip-172-31-6-24.ap-northeast-2.compute.internal/TEST-WAS-01 addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT_ENV_java8plus alive 2023-09-08 11:25:23.89 {detected=java,ADC=false}
+20230908 11:25:27 [S105] Update OBJECT  objType=tomcat objHash=z14b4l71 objName=/ip-172-31-6-24.ap-northeast-2.compute.internal/TEST-WAS-01 addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT_ENV_java8plus alive 2023-09-08 11:25:27.904 {detected=tomcat,ADC=false}
+20230908 11:32:31 Scouter Server Version 2.20.0 2023-05-29 05:14 GMT
+20230908 11:32:31 [PID]37202
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 2.20.0
+ 
+20230908 11:32:31 Load Account Group File
+20230908 11:32:31 Load Account File
+20230908 11:32:31 udp listen 0.0.0.0:6100
+20230908 11:32:31 	udp_host=0.0.0.0
+20230908 11:32:31 	udp_port=6100
+20230908 11:32:31 	udp_buffer=65535
+20230908 11:32:31 	udp_so_rcvbuf=4194304
+20230908 11:32:31 Load Account Group File
+20230908 11:32:31 Load Account File
+20230908 11:32:31 	tcp_port=6100
+20230908 11:32:31 	cp_agent_so_timeout=60000
+20230908 11:32:31 	cp_client_so_timeout=8000
+20230908 11:32:32 [S104] New OBJECT  objType=linux objHash=x1r1fbfc objName=/ip-172-31-6-24.ap-northeast-2.compute.internal addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT alive 2023-09-08 11:32:32.25 {detected=linux,podName=,kubeSeq=-1,useKubeSeq=false,hostName=ip-172-31-6-24.ap-northeast-2.compute.internal}
+20230908 11:32:32 [S104] New OBJECT  objType=tomcat objHash=z14b4l71 objName=/ip-172-31-6-24.ap-northeast-2.compute.internal/TEST-WAS-01 addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT_ENV_java8plus alive 2023-09-08 11:32:32.738 {detected=tomcat,ADC=false}
+20230908 11:32:36 [A1601] error on toClass with javassist. try to fallback for java8 below. err:Class not in same package as lookup class: scouter.server.plugin.impl.Neighbor has no permission to define the class
+20230908 11:32:36 [S215] Alert rule detected : ErrorRate.alert
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.IAlert loaded #x19bvktd
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.ICounter loaded #xgf1olb
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.IObject loaded #xp53g8f
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.IXLog loaded #xv69rpi
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.IXLog loaded #xp1o8j5
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x1d2iji9
+20230908 11:32:36 PLUG-IN : scouter.server.plugin.ISummary loaded #xa0e5co
+20230908 11:33:40 [S145] GeoIP db file is not readable : /home/ec2-user/scouter/server/conf/GeoLiteCity.dat
+20230909 00:00:00 [S105] Update OBJECT  objType=tomcat objHash=z14b4l71 objName=/ip-172-31-6-24.ap-northeast-2.compute.internal/TEST-WAS-01 addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT_ENV_java8plus alive 2023-09-09 00:00:00.651 {detected=tomcat,ADC=false}
+20230909 00:00:02 [S105] Update OBJECT  objType=linux objHash=x1r1fbfc objName=/ip-172-31-6-24.ap-northeast-2.compute.internal addr=127.0.0.1 2.20.0 2023-05-29 05:14 GMT alive 2023-09-09 00:00:02.067 {detected=linux,podName=,kubeSeq=-1,useKubeSeq=false,hostName=ip-172-31-6-24.ap-northeast-2.compute.internal}
